@@ -1,9 +1,9 @@
 const axios = require('axios');
 
 
-const rpcURL = 'http://jungt:5719166Captn!@localhost:8332'; // Replace with your RPC URL and port
-const rpcUser = 'jungt'; // Replace with your RPC username
-const rpcPassword = '5719166Captn'; // Replace with your RPC password
+const rpcURL = ''; // Replace with your RPC URL and port
+const rpcUser = ''; // Replace with your RPC username
+const rpcPassword = ''; // Replace with your RPC password
 
 
     const config = {
@@ -16,7 +16,7 @@ const rpcPassword = '5719166Captn'; // Replace with your RPC password
             jsonrpc: "1.0",
             id: "curltest",
             method: "scantxoutset",
-            params: ["start", [{ "desc": "addr(bc1qkaesdk5xjmdcy2g0v3uj9dyp8j5emqfac3vlzy)"}]]
+            params: ["start", [{ "desc": "addr()"}]]
         },
         auth: {
             username: rpcUser,
