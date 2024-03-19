@@ -5,7 +5,7 @@ const { ECPairFactory } = require('ecpair');
 const ecc = require('tiny-secp256k1');
 const fs = require('fs');
 const ECPair = ECPairFactory(ecc)
-
+ 
 // Generate a random private key
 const privGene = crypto.randomBytes(32)
 
