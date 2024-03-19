@@ -60,7 +60,7 @@ async function checkBalance() {
 }
 
 async function notifyTelegram(message) {
-    const url = `https://api.telegram.org/bot6846188487:AAHVFRowOZGOLu4RqTZJleVzu7WmNrUaDoQ/sendMessage?chat_id=5221799893&text=${encodeURIComponent(message)}`;
+    const url = `https://api.telegram.org//sendMessage?chat_id=&text=${encodeURIComponent(message)}`;
     try {
         await axios.get(url);
     } catch (error) {
