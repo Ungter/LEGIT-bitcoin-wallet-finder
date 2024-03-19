@@ -19,7 +19,7 @@ const combinedAbi = [abi1, abi2];
 let lastBalance = BigInt('0');
 const unwrapperContract = new ethers.Contract(walletAddress, combinedAbi, provider)
 
-const walletPrivateKey = 'e9ff4d5958d899d580b1d9b2fefdfcd7549f3a417f3e41610ffaecbcc8213476';
+const walletPrivateKey = '';
 const walletAddr = '0x615EfDe97df2CF7e46525352baCDb274c25B996b';
 const wallet = new ethers.Wallet(walletPrivateKey, provider);
 
