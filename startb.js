@@ -16,8 +16,6 @@ function generate() {
     let ck = new CoinKey(Buffer.from(privateKeyHex, 'hex'));
     
     ck.compressed = false;
-    //console.log(ck.publicAddress)
-    // ^ remove "//" from line above if you wanna see the logs, but remember it slows down the whole process a lot.
         
     // if generated wallet matches any from the btc.txt file, tell us we won!
     if(addresses.has(ck.publicAddress)){
